@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#nav {
+    text-align: center!important;
+    position: fixed;
+    display: block;
+    font-size: 20pt;
+    width: 100%;
+    z-index: 9;
+    vertical-align: middle;
+    color: black;
+    background: url('logo.png') no-repeat;
+    background-color: rgb(35,47,62);
+    background-attachment: fixed;
+    background-position: 20px 10px;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-weight:400;
+    font-style:italic;
+    color: #ff9900!important;
+    background-color: black;
