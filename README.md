@@ -1,2 +1,2 @@
 # True_Review
-CAS 2XB3 Final Project
+Generate socres for Amazon reviews based on different categories.
